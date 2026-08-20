@@ -1,0 +1,51 @@
+item_id,symptom_text,llm_label,note
+dev_001,"beta my son 3 yrs old he has fever since 2 days and now he is not drinking milk properly",pediatrics,
+dev_002,"cant sleep keep waking up 4am mind wont stop been like this since i changed job",psychiatry,
+dev_003,"tooth pain",dentistry_general,very short input
+dev_004,"my wife is 6 months pregnant and having pain in lower back and some tightening is that normal",obgyn,third person
+dev_005,"i have pain in my chest when i breath in deep started after gym yesterday no other symptoms im 24",orthopedics,AMBIGUOUS musculoskeletal vs general_medicine
+dev_006,"sugar 14 fasting",endocrinology,very short input
+dev_007,"hair fall very bad since 3 months handful coming out when washing",dermatology,
+dev_008,"how much is consultation fee",out_of_scope,
+dev_009,"grandfather 78 fell in bathroom he is awake but cant move his hip",emergency,
+dev_010,"eyes very itchy and watery every morning when i wake up also sneezing lot its worse when i clean the house",allergy_immunology,near-miss test vs ent
+dev_011,"back pain",orthopedics,very short and vague
+dev_012,"burning sensation while passing urine and going toilet many times since 3 days",urology,
+dev_013,"my daughter 7yrs has crooked front teeth dentist said wait but they r getting worse",orthodontics,
+dev_014,"knee pain going up stairs im 45 was fine before no injury",orthopedics,near-miss test vs physiotherapy
+dev_015,"feeling very low dont want to do anything not eating properly my friend said i should talk to someone",psychiatry,watch for disordered eating flag
+dev_016,"stomach bloated all the time and gas worse after bread and pasta",gastroenterology,near-miss test vs nutrition
+dev_017,"i want to check my whole body full body checkup package",general_medicine,
+dev_018,"my mother had stroke last month now she cant use right arm properly need someone for exercises",physiotherapy,near-miss test vs neurology
+dev_019,"swelling both legs and i feel breathless when lying flat at night",cardiology,near-miss test vs pulmonology
+dev_020,"dry cough since almost 2 months no fever i dont smoke paracetamol not helping",pulmonology,
+dev_021,"lump in neck front side moves when i swallow",endocrinology,AMBIGUOUS vs ent vs general_surgery
+dev_022,"can you tell me if dr ahmed is available on saturday",out_of_scope,
+dev_023,"my baby 4 months old skin is very dry and red patches on cheeks and elbows keeps scratching",dermatology,AMBIGUOUS vs allergy_immunology vs pediatrics
+dev_024,"period very heavy this month changing pad every 2 hrs also very tired",obgyn,borderline emergency
+dev_025,"ringing sound in left ear all the time and hearing is less on that side",ent,
+dev_026,"numbness in fingers at night wakes me up i shake my hand and it goes",neurology,near-miss test vs orthopedics
+dev_027,"gum bleeding when brushing and bad smell from mouth my wife complains",periodontics,near-miss test vs dentistry_general
+dev_028,"i want to remove my belly fat tried gym no result",nutrition,AMBIGUOUS vs plastic_aesthetic
+dev_029,"creatinine 2.1 in blood test doctor at clinic said see specialist",nephrology,
+dev_030,"vision blur in one eye since morning like a curtain coming down",emergency,near-miss test vs ophthalmology
+dev_031,"my son is 11 and very overweight doctor said he needs diet where to go",nutrition,near-miss test vs pediatrics
+dev_032,"pain in right lower abdomen since morning getting worse feel like vomiting",emergency,AMBIGUOUS vs general_surgery
+dev_033,"both hands fingers swollen and stiff in morning for 1 hour this is 4 months now",rheumatology,near-miss test vs orthopedics
+dev_034,"i snore very loud and my wife says i stop breathing im tired whole day",pulmonology,near-miss test vs ent
+dev_035,"need botox and filler prices",plastic_aesthetic,price question but clinical intent
+dev_036,"piles problem bleeding when passing motion very painful",general_surgery,near-miss test vs gastroenterology
+dev_037,"thyroid tsh is 8.5 feeling tired and gaining weight",endocrinology,
+dev_038,"my father 70 forgetting things repeating same question sometimes doesnt recognise road home",neurology,third person
+dev_039,"salam any doctor available today",out_of_scope,minimal input
+dev_040,"cataract in both eyes want to know about operation",ophthalmology,
+dev_041,"acidity and burning in chest at night cant sleep flat antacid helps little",gastroenterology,near-miss test vs cardiology
+dev_042,"my 5 year old ear pain crying whole night and some liquid coming out",ent,pediatric filter test
+dev_043,"i am 32 male we are trying for baby 2 years my wife tests normal mine they said count low",urology,near-miss test vs obgyn
+dev_044,"chest pain heavy like weight sweating left arm also paining since 20 min",emergency,
+dev_045,"yellow eyes and dark urine since 4 days and no appetite",gastroenterology,
+dev_046,"my knee replacement was 3 weeks ago need someone to help with exercises at home",physiotherapy,near-miss test vs orthopedics
+dev_047,"wisdom tooth coming and jaw swollen cant open mouth fully",dentistry_general,
+dev_048,"white patches on face and hands spreading slowly no itching",dermatology,
+dev_049,"child not gaining weight 2 years old eats very little other kids bigger",pediatrics,near-miss test vs nutrition
+dev_050,"i take insulin but sugar still 200-300 need to adjust",endocrinology,
