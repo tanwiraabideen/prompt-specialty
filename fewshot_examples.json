@@ -1,0 +1,313 @@
+{
+    "_meta": {
+        "version": "fewshot_examples_v001",
+        "coverage": "1 example per clinical bucket (24) + 1 out_of_scope = 25",
+        "source": "written for this purpose, NOT drawn from dev_set.csv or eval_items_BLANK.csv",
+        "verified": "disjoint from both dev and eval sets, checked by script",
+        "warning": "replace these with samples from your own synthetic pool once generated, and re-verify disjointness",
+        "render_as": "input line then output line, blank line between examples. Or as alternating user/assistant turns if using message-based few-shot."
+    },
+    "examples": [
+        {
+            "bucket": "general_medicine",
+            "input": "feeling weak and low energy for weeks and i keep getting a temperature in the evenings",
+            "output": {
+                "ranked": [
+                    "general_medicine",
+                    "endocrinology",
+                    "pulmonology"
+                ],
+                "confidence": "medium"
+            }
+        },
+        {
+            "bucket": "pediatrics",
+            "input": "my daughter is 18 months and she is not walking yet or saying any words",
+            "output": {
+                "ranked": [
+                    "pediatrics",
+                    "neurology",
+                    "ent"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "dentistry_general",
+            "input": "sharp pain in one of my back teeth when i bite down on food",
+            "output": {
+                "ranked": [
+                    "dentistry_general",
+                    "periodontics",
+                    "ent"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "orthodontics",
+            "input": "i am 24 and my front teeth overlap, is it too late to fix them",
+            "output": {
+                "ranked": [
+                    "orthodontics",
+                    "dentistry_general",
+                    "plastic_aesthetic"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "periodontics",
+            "input": "when i spit after brushing there is blood every time and my gums look puffy",
+            "output": {
+                "ranked": [
+                    "periodontics",
+                    "dentistry_general",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "dermatology",
+            "input": "circular itchy patch on my thigh that keeps getting bigger",
+            "output": {
+                "ranked": [
+                    "dermatology",
+                    "allergy_immunology",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "plastic_aesthetic",
+            "input": "i had a c section and the scar is thick and raised, can it be improved",
+            "output": {
+                "ranked": [
+                    "plastic_aesthetic",
+                    "dermatology",
+                    "general_surgery"
+                ],
+                "confidence": "medium"
+            }
+        },
+        {
+            "bucket": "obgyn",
+            "input": "my cycle used to be regular but now i am bleeding twice a month",
+            "output": {
+                "ranked": [
+                    "obgyn",
+                    "endocrinology",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "cardiology",
+            "input": "i wake at night feeling my heart pounding and i have to sit up",
+            "output": {
+                "ranked": [
+                    "cardiology",
+                    "psychiatry",
+                    "pulmonology"
+                ],
+                "confidence": "medium"
+            }
+        },
+        {
+            "bucket": "gastroenterology",
+            "input": "every time i eat spicy food i get burning behind my breastbone for hours",
+            "output": {
+                "ranked": [
+                    "gastroenterology",
+                    "cardiology",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "orthopedics",
+            "input": "landed badly playing basketball and my ankle is swollen and i cant put weight on it",
+            "output": {
+                "ranked": [
+                    "orthopedics",
+                    "physiotherapy",
+                    "general_surgery"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "physiotherapy",
+            "input": "my shoulder surgery was two months ago and i still cant lift properly, i need guided exercises",
+            "output": {
+                "ranked": [
+                    "physiotherapy",
+                    "orthopedics",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "ophthalmology",
+            "input": "the words go blurry when i read and my eyes ache after about an hour",
+            "output": {
+                "ranked": [
+                    "ophthalmology",
+                    "neurology",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "ent",
+            "input": "one side of my nose is always blocked even when i am not sick",
+            "output": {
+                "ranked": [
+                    "ent",
+                    "allergy_immunology",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "urology",
+            "input": "i have to strain to start passing urine and it dribbles at the end",
+            "output": {
+                "ranked": [
+                    "urology",
+                    "nephrology",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "neurology",
+            "input": "sharp pain shooting from my lower back into my left foot when i sit too long",
+            "output": {
+                "ranked": [
+                    "neurology",
+                    "orthopedics",
+                    "physiotherapy"
+                ],
+                "confidence": "medium"
+            }
+        },
+        {
+            "bucket": "pulmonology",
+            "input": "i cough every night and my chest whistles, it is worse when the ac is on",
+            "output": {
+                "ranked": [
+                    "pulmonology",
+                    "allergy_immunology",
+                    "ent"
+                ],
+                "confidence": "medium"
+            }
+        },
+        {
+            "bucket": "endocrinology",
+            "input": "i am always thirsty and passing urine a lot and i have lost 6kg without trying",
+            "output": {
+                "ranked": [
+                    "endocrinology",
+                    "urology",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "psychiatry",
+            "input": "i cant stop worrying about small things and my chest feels tight all day",
+            "output": {
+                "ranked": [
+                    "psychiatry",
+                    "cardiology",
+                    "general_medicine"
+                ],
+                "confidence": "medium"
+            }
+        },
+        {
+            "bucket": "nephrology",
+            "input": "my report says egfr is low and there is protein in my urine",
+            "output": {
+                "ranked": [
+                    "nephrology",
+                    "urology",
+                    "endocrinology"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "general_surgery",
+            "input": "there is a soft swelling near my navel that gets bigger when i lift things",
+            "output": {
+                "ranked": [
+                    "general_surgery",
+                    "orthopedics",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "allergy_immunology",
+            "input": "every time i visit a house with a cat my nose runs and my eyes swell up",
+            "output": {
+                "ranked": [
+                    "allergy_immunology",
+                    "ent",
+                    "ophthalmology"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "rheumatology",
+            "input": "my knuckles on both hands are puffy and painful and it takes an hour to loosen up in the morning",
+            "output": {
+                "ranked": [
+                    "rheumatology",
+                    "orthopedics",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "nutrition",
+            "input": "i am 90kg and i want proper guidance on what to eat instead of random diets",
+            "output": {
+                "ranked": [
+                    "nutrition",
+                    "endocrinology",
+                    "general_medicine"
+                ],
+                "confidence": "high"
+            }
+        },
+        {
+            "bucket": "out_of_scope",
+            "input": "which metro station is nearest to your clinic",
+            "output": {
+                "ranked": [
+                    "out_of_scope",
+                    "general_medicine",
+                    "general_surgery"
+                ],
+                "confidence": "high"
+            },
+            "wart": "ranks 2 and 3 are meaningless here. See the note in the accompanying message: the exactly-three rule fits clinical items and does not fit out_of_scope."
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+<patient_text>
+{{USER_TEXT}}
+</patient_text>
+
+Return the JSON object now.
