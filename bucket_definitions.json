@@ -1,0 +1,434 @@
+{
+  "general_medicine": {
+    "scope": "Adult illness with no clear single organ system, first contact, general unwellness, routine checks. Absorbs GP, Family Medicine, Internal Medicine, Geriatrics.",
+    "in_examples": [
+      "tired for three months and I've lost weight without trying",
+      "fever and body aches for four days now",
+      "I feel generally unwell, I think I need blood tests"
+    ],
+    "near_misses": [
+      {
+        "text": "burning when I urinate",
+        "goes_to": "urology (single clear system)"
+      },
+      {
+        "text": "chest pain spreading to my arm",
+        "goes_to": "EMERGENCY prefilter"
+      }
+    ]
+  },
+  "pediatrics": {
+    "scope": "Child complaints where age itself is the routing driver: general child illness, feeding, growth, development, newborns. NOT a catch-all for every child.",
+    "in_examples": [
+      "my 2 year old has a fever and won't eat anything",
+      "newborn keeps vomiting after every feed",
+      "my son is 4 and much smaller than other kids his age"
+    ],
+    "near_misses": [
+      {
+        "text": "my 8 year old's teeth are crowded",
+        "goes_to": "orthodontics"
+      },
+      {
+        "text": "my child's ear hurts and he keeps pulling it",
+        "goes_to": "ent, with `pediatric_capable` filter"
+      }
+    ]
+  },
+  "dentistry_general": {
+    "scope": "Teeth: decay, pain, fractures, fillings, crowns, extractions, cleaning, implants, wisdom teeth, jaw and TMJ. Absorbs Endodontics, Prosthodontics, OMFS, Oral Medicine.",
+    "in_examples": [
+      "my back tooth hurts badly when I drink something cold",
+      "I chipped my front tooth eating",
+      "wisdom tooth area is swollen and I can't open my mouth properly"
+    ],
+    "near_misses": [
+      {
+        "text": "my gums bleed every time I brush",
+        "goes_to": "periodontics"
+      },
+      {
+        "text": "I want my teeth straightened",
+        "goes_to": "orthodontics"
+      }
+    ]
+  },
+  "orthodontics": {
+    "scope": "Tooth alignment and bite: braces, aligners, spacing, crowding, jaw position.",
+    "in_examples": [
+      "my teeth are crowded and I want braces",
+      "thinking about Invisalign, how much does it cost",
+      "my top teeth stick out over my bottom teeth"
+    ],
+    "near_misses": [
+      {
+        "text": "my tooth cracked",
+        "goes_to": "dentistry_general"
+      },
+      {
+        "text": "I want my teeth whiter",
+        "goes_to": "dentistry_general (cosmetic dentistry)"
+      }
+    ]
+  },
+  "periodontics": {
+    "scope": "Gums and tooth-supporting structures: bleeding, recession, gum disease, loose teeth.",
+    "in_examples": [
+      "my gums bleed every time I brush my teeth",
+      "my gums are receding and my teeth look longer than before",
+      "swollen gums and bad breath that won't go away"
+    ],
+    "near_misses": [
+      {
+        "text": "my tooth is sensitive to cold",
+        "goes_to": "dentistry_general"
+      },
+      {
+        "text": "I'm missing a tooth and want an implant",
+        "goes_to": "dentistry_general"
+      }
+    ]
+  },
+  "dermatology": {
+    "scope": "Medical skin, hair, and nail conditions: rashes, acne, moles, hair loss, infections.",
+    "in_examples": [
+      "itchy red scaly patches on my elbows for weeks",
+      "a mole on my back has changed colour and shape",
+      "acne that isn't improving with anything from the pharmacy"
+    ],
+    "near_misses": [
+      {
+        "text": "I want filler in my cheeks",
+        "goes_to": "plastic_aesthetic"
+      },
+      {
+        "text": "rash and swelling right after eating shellfish",
+        "goes_to": "allergy_immunology"
+      }
+    ]
+  },
+  "plastic_aesthetic": {
+    "scope": "Elective cosmetic alteration and reconstructive surgery: injectables, body contouring, rhinoplasty, hair transplant.",
+    "in_examples": [
+      "I want botox for my forehead lines",
+      "considering a nose job, want a consultation",
+      "hair transplant, my hairline is receding"
+    ],
+    "near_misses": [
+      {
+        "text": "a mole has changed colour",
+        "goes_to": "dermatology"
+      },
+      {
+        "text": "my hair is falling out in patches",
+        "goes_to": "dermatology (medical, not elective)"
+      }
+    ]
+  },
+  "obgyn": {
+    "scope": "Pregnancy, childbirth, female reproductive system, menstrual and menopausal issues, fertility (female).",
+    "in_examples": [
+      "my periods are extremely painful every month",
+      "I'm 8 weeks pregnant and need my first checkup",
+      "bleeding between periods for the last two cycles"
+    ],
+    "near_misses": [
+      {
+        "text": "we've been trying to conceive, the problem is with my husband",
+        "goes_to": "urology"
+      },
+      {
+        "text": "burning when I urinate, no other symptoms",
+        "goes_to": "urology (see tie-break 3.6)"
+      }
+    ]
+  },
+  "cardiology": {
+    "scope": "Heart and circulation, non-emergency: rhythm, blood pressure, exertional symptoms, known heart disease follow-up. Absorbs cardiac, cardiothoracic, vascular surgery, electrophysiology.",
+    "in_examples": [
+      "my heart races when I climb one flight of stairs",
+      "pharmacy said my blood pressure is 160 over 100",
+      "my ankles swell up by the end of every day"
+    ],
+    "near_misses": [
+      {
+        "text": "crushing chest pain right now",
+        "goes_to": "EMERGENCY prefilter"
+      },
+      {
+        "text": "breathless with wheezing and a cough",
+        "goes_to": "pulmonology"
+      }
+    ]
+  },
+  "gastroenterology": {
+    "scope": "Digestive tract and liver: reflux, bowel habit, abdominal pain (non-acute), liver. Absorbs Hepatology.",
+    "in_examples": [
+      "burning in my upper stomach an hour after eating",
+      "loose motions for three weeks now",
+      "the whites of my eyes have gone yellow"
+    ],
+    "near_misses": [
+      {
+        "text": "sudden severe stomach pain, I can't stand up straight",
+        "goes_to": "EMERGENCY prefilter"
+      },
+      {
+        "text": "I want to lose weight",
+        "goes_to": "nutrition"
+      }
+    ]
+  },
+  "orthopedics": {
+    "scope": "Musculoskeletal injury and structural problems: joints, bones, spine, fractures, sprains. Absorbs Podiatry, Sports Medicine.",
+    "in_examples": [
+      "my knee hurts every time I go down stairs",
+      "shoulder pain, I can't lift my arm above my head",
+      "twisted my ankle playing football, it's swollen"
+    ],
+    "near_misses": [
+      {
+        "text": "I need rehab exercises after my knee surgery",
+        "goes_to": "physiotherapy"
+      },
+      {
+        "text": "multiple joints stiff for an hour every morning",
+        "goes_to": "rheumatology"
+      }
+    ]
+  },
+  "physiotherapy": {
+    "scope": "Rehabilitation, movement, posture, and recovery: post-operative, post-injury, chronic mechanical pain management.",
+    "in_examples": [
+      "I need physio after my knee replacement",
+      "my neck is stiff from sitting at a desk all day",
+      "the doctor told me to start rehab exercises for my back"
+    ],
+    "near_misses": [
+      {
+        "text": "I fell and can't put weight on my ankle",
+        "goes_to": "orthopedics"
+      },
+      {
+        "text": "sudden back pain with numbness down my leg",
+        "goes_to": "neurology"
+      }
+    ]
+  },
+  "ophthalmology": {
+    "scope": "Eyes and vision: vision changes, eye pain, redness, discharge, floaters, screening.",
+    "in_examples": [
+      "my vision has been blurry for about a month",
+      "red itchy eye with sticky discharge in the morning",
+      "I keep seeing floaters and small flashes"
+    ],
+    "near_misses": [
+      {
+        "text": "I've suddenly lost vision in one eye",
+        "goes_to": "EMERGENCY prefilter"
+      },
+      {
+        "text": "itchy scaly rash on my eyelid",
+        "goes_to": "dermatology"
+      }
+    ]
+  },
+  "ent": {
+    "scope": "Ear, nose, throat, hearing, balance, sinuses, voice. Absorbs Otolaryngology, Head and Neck Surgery, Audiology.",
+    "in_examples": [
+      "blocked nose and facial pressure for three weeks",
+      "ear pain and everything sounds muffled",
+      "my voice has been hoarse for over a month"
+    ],
+    "near_misses": [
+      {
+        "text": "sneezing and itchy eyes every single morning",
+        "goes_to": "allergy_immunology"
+      },
+      {
+        "text": "sore throat with fever since yesterday",
+        "goes_to": "general_medicine"
+      }
+    ]
+  },
+  "urology": {
+    "scope": "Urinary tract in both sexes, male reproductive system, kidney stones. Absorbs Andrology, Urosurgery, Genito-Urinary Medicine.",
+    "in_examples": [
+      "burning and stinging when I urinate",
+      "I'm getting up three times every night to urinate",
+      "blood in my urine this morning"
+    ],
+    "near_misses": [
+      {
+        "text": "swelling in my legs and frothy urine",
+        "goes_to": "nephrology"
+      },
+      {
+        "text": "no periods for three months and pelvic pain",
+        "goes_to": "obgyn"
+      }
+    ]
+  },
+  "neurology": {
+    "scope": "Brain and nervous system: headache, seizures, numbness, weakness, tremor, dizziness, memory. Absorbs Neurosurgery, Neuro and Spine.",
+    "in_examples": [
+      "headaches most days for the last two months",
+      "numbness and tingling in both hands, worse at night",
+      "my hand shakes when I try to hold a cup"
+    ],
+    "near_misses": [
+      {
+        "text": "the worst headache of my life, came on suddenly",
+        "goes_to": "EMERGENCY prefilter"
+      },
+      {
+        "text": "dizzy for a few seconds when I turn over in bed",
+        "goes_to": "ent"
+      }
+    ]
+  },
+  "pulmonology": {
+    "scope": "Lungs and breathing: chronic cough, wheeze, breathlessness, sleep apnoea. Absorbs Respiratory Medicine, Chest Medicine, Thoracic Surgery, Sleep Medicine.",
+    "in_examples": [
+      "a cough that hasn't gone away in six weeks",
+      "I wheeze at night and wake up short of breath",
+      "my wife says I snore and stop breathing in my sleep"
+    ],
+    "near_misses": [
+      {
+        "text": "I can't breathe properly right now",
+        "goes_to": "EMERGENCY prefilter"
+      },
+      {
+        "text": "breathless when walking, with swollen ankles",
+        "goes_to": "cardiology"
+      }
+    ]
+  },
+  "endocrinology": {
+    "scope": "Hormones and metabolism: diabetes, thyroid, adrenal, pituitary, metabolic disorders.",
+    "in_examples": [
+      "I'm diabetic and my sugar levels are out of control",
+      "my thyroid blood test came back abnormal",
+      "gaining weight, always cold, hair falling out"
+    ],
+    "near_misses": [
+      {
+        "text": "I want a diet plan to lose weight",
+        "goes_to": "nutrition"
+      },
+      {
+        "text": "irregular periods with facial hair growth",
+        "goes_to": "obgyn"
+      }
+    ]
+  },
+  "psychiatry": {
+    "scope": "Mental health: mood, anxiety, sleep, attention, behaviour, addiction. Absorbs Counseling.",
+    "in_examples": [
+      "I feel anxious all the time and can't sleep",
+      "low mood for months, no interest in anything",
+      "my son can't focus at school and his teacher suggested an assessment"
+    ],
+    "near_misses": [
+      {
+        "text": "tired all the time, no other symptoms",
+        "goes_to": "general_medicine"
+      },
+      {
+        "text": "can't sleep because of back pain",
+        "goes_to": "orthopedics"
+      }
+    ]
+  },
+  "nephrology": {
+    "scope": "Kidney function and disease: abnormal kidney results, kidney failure, dialysis, fluid retention of renal origin.",
+    "in_examples": [
+      "my kidney function test results came back abnormal",
+      "swelling in my face and legs, and my urine is frothy",
+      "I'm on dialysis and need a follow-up consultation"
+    ],
+    "near_misses": [
+      {
+        "text": "burning when I urinate",
+        "goes_to": "urology"
+      },
+      {
+        "text": "severe pain in my side, comes in waves",
+        "goes_to": "urology (stones)"
+      }
+    ]
+  },
+  "general_surgery": {
+    "scope": "Conditions typically managed operatively by a general surgeon: hernia, gallbladder, appendix, lumps, piles, GI surgery. Absorbs Laparoscopic, Gastro-intestinal Surgery.",
+    "in_examples": [
+      "a lump in my groin that bulges when I cough",
+      "pain under my right ribs after eating oily food",
+      "bleeding when I pass stool, and something comes out"
+    ],
+    "near_misses": [
+      {
+        "text": "sudden severe abdominal pain with fever",
+        "goes_to": "EMERGENCY prefilter"
+      },
+      {
+        "text": "heartburn and acid coming up my throat",
+        "goes_to": "gastroenterology"
+      }
+    ]
+  },
+  "allergy_immunology": {
+    "scope": "Allergy and immune response: hay fever, food and drug allergy, hives, recurrent infections. Absorbs Immunology.",
+    "in_examples": [
+      "sneezing and itchy eyes every morning, worse in dusty places",
+      "rash and lip swelling after eating nuts",
+      "my child comes out in hives whenever we visit my sister's house"
+    ],
+    "near_misses": [
+      {
+        "text": "my throat is closing up and I can't breathe",
+        "goes_to": "EMERGENCY prefilter"
+      },
+      {
+        "text": "dry itchy patches with no obvious trigger",
+        "goes_to": "dermatology"
+      }
+    ]
+  },
+  "rheumatology": {
+    "scope": "Autoimmune and inflammatory joint and connective tissue disease: multi-joint, symmetrical, prolonged morning stiffness.",
+    "in_examples": [
+      "several joints stiff for over an hour every morning",
+      "my fingers and wrists have been swollen and painful for months",
+      "I was told I have lupus and need ongoing management"
+    ],
+    "near_misses": [
+      {
+        "text": "one knee hurts after I run",
+        "goes_to": "orthopedics"
+      },
+      {
+        "text": "back pain since I lifted something heavy",
+        "goes_to": "orthopedics"
+      }
+    ]
+  },
+  "nutrition": {
+    "scope": "Diet, weight management, sports and clinical nutrition, feeding advice. Self-referred lifestyle requests.",
+    "in_examples": [
+      "I want to lose weight, where do I start",
+      "I need a diet plan that works with my diabetes",
+      "my 5 year old refuses to eat anything but rice"
+    ],
+    "near_misses": [
+      {
+        "text": "gaining weight despite eating very little, always cold and tired",
+        "goes_to": "endocrinology"
+      },
+      {
+        "text": "I've lost weight without trying to",
+        "goes_to": "general_medicine"
+      }
+    ]
+  }
+}
