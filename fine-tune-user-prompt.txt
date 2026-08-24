@@ -1,0 +1,4 @@
+Route this patient text to a medical specialty.
+<patient_text>
+{{USER_TEXT}}
+</patient_text>
