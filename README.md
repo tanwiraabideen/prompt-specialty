@@ -53,7 +53,7 @@ I decided to compare 3 different setups.
 - The fine-tuned model used 44x fewer tokens than the Luna model with full definitions.
 - However for our application, accuracy is more important than latency, so for the shipped product I will be using GPT-5.6 Luna with scope lines as it's the best performing.
 
-##5. Final Implementation
+## 5. Final Implementation
 
 I implemented an emergency pre filter. For each symptom, it's sent to an LLM to see whether it can be classified as an emergency or not. I weighted it towards more likely to classify as emergency as failing to detect an emergency is much more dangerous than falsely detecting an emergency.
 
