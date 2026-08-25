@@ -1,0 +1,51 @@
+item_id,symptom_text,predicted_bucket,ranked_json,confidence,parse_status
+dev_001,beta my son 3 yrs old he has fever since 2 days and now he is not drinking milk properly,general_medicine,"[""general_medicine""]",,ok
+dev_002,cant sleep keep waking up 4am mind wont stop been like this since i changed job,general_medicine,"[""general_medicine""]",,ok
+dev_003,tooth pain,general_medicine,"[""general_medicine""]",,ok
+dev_004,my wife is 6 months pregnant and having pain in lower back and some tightening is that normal,general_medicine,"[""general_medicine""]",,ok
+dev_005,i have pain in my chest when i breath in deep started after gym yesterday no other symptoms im 24,general_medicine,"[""general_medicine""]",,ok
+dev_006,sugar 14 fasting,general_medicine,"[""general_medicine""]",,ok
+dev_007,hair fall very bad since 3 months handful coming out when washing,general_medicine,"[""general_medicine""]",,ok
+dev_008,how much is consultation fee,general_medicine,"[""general_medicine""]",,ok
+dev_009,grandfather 78 fell in bathroom he is awake but cant move his hip,general_medicine,"[""general_medicine""]",,ok
+dev_010,eyes very itchy and watery every morning when i wake up also sneezing lot its worse when i clean the house,general_medicine,"[""general_medicine""]",,ok
+dev_011,back pain,general_medicine,"[""general_medicine""]",,ok
+dev_012,burning sensation while passing urine and going toilet many times since 3 days,general_medicine,"[""general_medicine""]",,ok
+dev_013,my daughter 7yrs has crooked front teeth dentist said wait but they r getting worse,general_medicine,"[""general_medicine""]",,ok
+dev_014,knee pain going up stairs im 45 was fine before no injury,general_medicine,"[""general_medicine""]",,ok
+dev_015,feeling very low dont want to do anything not eating properly my friend said i should talk to someone,general_medicine,"[""general_medicine""]",,ok
+dev_016,stomach bloated all the time and gas worse after bread and pasta,general_medicine,"[""general_medicine""]",,ok
+dev_017,i want to check my whole body full body checkup package,general_medicine,"[""general_medicine""]",,ok
+dev_018,my mother had stroke last month now she cant use right arm properly need someone for exercises,general_medicine,"[""general_medicine""]",,ok
+dev_019,swelling both legs and i feel breathless when lying flat at night,general_medicine,"[""general_medicine""]",,ok
+dev_020,dry cough since almost 2 months no fever i dont smoke paracetamol not helping,general_medicine,"[""general_medicine""]",,ok
+dev_021,lump in neck front side moves when i swallow,general_medicine,"[""general_medicine""]",,ok
+dev_022,can you tell me if dr ahmed is available on saturday,general_medicine,"[""general_medicine""]",,ok
+dev_023,my baby 4 months old skin is very dry and red patches on cheeks and elbows keeps scratching,general_medicine,"[""general_medicine""]",,ok
+dev_024,period very heavy this month changing pad every 2 hrs also very tired,general_medicine,"[""general_medicine""]",,ok
+dev_025,ringing sound in left ear all the time and hearing is less on that side,general_medicine,"[""general_medicine""]",,ok
+dev_026,numbness in fingers at night wakes me up i shake my hand and it goes,general_medicine,"[""general_medicine""]",,ok
+dev_027,gum bleeding when brushing and bad smell from mouth my wife complains,general_medicine,"[""general_medicine""]",,ok
+dev_028,i want to remove my belly fat tried gym no result,general_medicine,"[""general_medicine""]",,ok
+dev_029,creatinine 2.1 in blood test doctor at clinic said see specialist,general_medicine,"[""general_medicine""]",,ok
+dev_030,vision blur in one eye since morning like a curtain coming down,general_medicine,"[""general_medicine""]",,ok
+dev_031,my son is 11 and very overweight doctor said he needs diet where to go,general_medicine,"[""general_medicine""]",,ok
+dev_032,pain in right lower abdomen since morning getting worse feel like vomiting,general_medicine,"[""general_medicine""]",,ok
+dev_033,both hands fingers swollen and stiff in morning for 1 hour this is 4 months now,general_medicine,"[""general_medicine""]",,ok
+dev_034,i snore very loud and my wife says i stop breathing im tired whole day,general_medicine,"[""general_medicine""]",,ok
+dev_035,need botox and filler prices,general_medicine,"[""general_medicine""]",,ok
+dev_036,piles problem bleeding when passing motion very painful,general_medicine,"[""general_medicine""]",,ok
+dev_037,thyroid tsh is 8.5 feeling tired and gaining weight,general_medicine,"[""general_medicine""]",,ok
+dev_038,my father 70 forgetting things repeating same question sometimes doesnt recognise road home,general_medicine,"[""general_medicine""]",,ok
+dev_039,salam any doctor available today,general_medicine,"[""general_medicine""]",,ok
+dev_040,cataract in both eyes want to know about operation,general_medicine,"[""general_medicine""]",,ok
+dev_041,acidity and burning in chest at night cant sleep flat antacid helps little,general_medicine,"[""general_medicine""]",,ok
+dev_042,my 5 year old ear pain crying whole night and some liquid coming out,general_medicine,"[""general_medicine""]",,ok
+dev_043,i am 32 male we are trying for baby 2 years my wife tests normal mine they said count low,general_medicine,"[""general_medicine""]",,ok
+dev_044,chest pain heavy like weight sweating left arm also paining since 20 min,general_medicine,"[""general_medicine""]",,ok
+dev_045,yellow eyes and dark urine since 4 days and no appetite,general_medicine,"[""general_medicine""]",,ok
+dev_046,my knee replacement was 3 weeks ago need someone to help with exercises at home,general_medicine,"[""general_medicine""]",,ok
+dev_047,wisdom tooth coming and jaw swollen cant open mouth fully,general_medicine,"[""general_medicine""]",,ok
+dev_048,white patches on face and hands spreading slowly no itching,general_medicine,"[""general_medicine""]",,ok
+dev_049,child not gaining weight 2 years old eats very little other kids bigger,general_medicine,"[""general_medicine""]",,ok
+dev_050,i take insulin but sugar still 200-300 need to adjust,general_medicine,"[""general_medicine""]",,ok

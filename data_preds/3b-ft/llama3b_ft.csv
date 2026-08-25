@@ -1,0 +1,51 @@
+item_id,symptom_text,predicted_bucket,ranked_json,confidence,parse_status,tokens_in,tokens_out,latency_ms
+dev_001,beta my son 3 yrs old he has fever since 2 days and now he is not drinking milk properly,pediatrics,"[""pediatrics""]",,ok,75,3,286.04
+dev_002,cant sleep keep waking up 4am mind wont stop been like this since i changed job,psychiatry,"[""psychiatry""]",,ok,71,4,310.71
+dev_003,tooth pain,dentistry_general,"[""dentistry_general""]",,ok,56,4,311.53
+dev_004,my wife is 6 months pregnant and having pain in lower back and some tightening is that normal,obgyn,"[""obgyn""]",,ok,72,4,340.99
+dev_005,i have pain in my chest when i breath in deep started after gym yesterday no other symptoms im 24,cardiology,"[""cardiology""]",,ok,74,3,267.58
+dev_006,sugar 14 fasting,endocrinology,"[""endocrinology""]",,ok,58,4,310.34
+dev_007,hair fall very bad since 3 months handful coming out when washing,dermatology,"[""dermatology""]",,ok,66,4,304.58
+dev_008,how much is consultation fee,general_medicine,"[""general_medicine""]",,ok,58,4,304.94
+dev_009,grandfather 78 fell in bathroom he is awake but cant move his hip,orthopedics,"[""orthopedics""]",,ok,68,4,300.82
+dev_010,eyes very itchy and watery every morning when i wake up also sneezing lot its worse when i clean the house,allergy_immunology,"[""allergy_immunology""]",,ok,78,6,411.46
+dev_011,back pain,orthopedics,"[""orthopedics""]",,ok,55,4,341.84
+dev_012,burning sensation while passing urine and going toilet many times since 3 days,urology,"[""urology""]",,ok,68,3,353.5
+dev_013,my daughter 7yrs has crooked front teeth dentist said wait but they r getting worse,orthodontics,"[""orthodontics""]",,ok,72,4,424.8
+dev_014,knee pain going up stairs im 45 was fine before no injury,orthopedics,"[""orthopedics""]",,ok,67,4,411.37
+dev_015,feeling very low dont want to do anything not eating properly my friend said i should talk to someone,psychiatry,"[""psychiatry""]",,ok,73,4,461.28
+dev_016,stomach bloated all the time and gas worse after bread and pasta,gastroenterology,"[""gastroenterology""]",,ok,68,5,524.56
+dev_017,i want to check my whole body full body checkup package,general_medicine,"[""general_medicine""]",,ok,65,4,438.76
+dev_018,my mother had stroke last month now she cant use right arm properly need someone for exercises,physiotherapy,"[""physiotherapy""]",,ok,70,4,498.35
+dev_019,swelling both legs and i feel breathless when lying flat at night,pulmonology,"[""pulmonology""]",,ok,67,5,563.76
+dev_020,dry cough since almost 2 months no fever i dont smoke paracetamol not helping,pulmonology,"[""pulmonology""]",,ok,71,5,429.41
+dev_021,lump in neck front side moves when i swallow,general_surgery,"[""general_surgery""]",,ok,63,4,324.35
+dev_022,can you tell me if dr ahmed is available on saturday,general_medicine,"[""general_medicine""]",,ok,66,4,325.03
+dev_023,my baby 4 months old skin is very dry and red patches on cheeks and elbows keeps scratching,pediatrics,"[""pediatrics""]",,ok,72,3,269.5
+dev_024,period very heavy this month changing pad every 2 hrs also very tired,obgyn,"[""obgyn""]",,ok,67,4,322.65
+dev_025,ringing sound in left ear all the time and hearing is less on that side,ent,"[""ent""]",,ok,69,2,228.5
+dev_026,numbness in fingers at night wakes me up i shake my hand and it goes,neurology,"[""neurology""]",,ok,70,4,336.74
+dev_027,gum bleeding when brushing and bad smell from mouth my wife complains,periodontics,"[""periodontics""]",,ok,66,4,322.94
+dev_028,i want to remove my belly fat tried gym no result,plastic_aesthetic,"[""plastic_aesthetic""]",,ok,64,5,455.46
+dev_029,creatinine 2.1 in blood test doctor at clinic said see specialist,nephrology,"[""nephrology""]",,ok,69,5,381.39
+dev_030,vision blur in one eye since morning like a curtain coming down,ophthalmology,"[""ophthalmology""]",,ok,65,4,327.54
+dev_031,my son is 11 and very overweight doctor said he needs diet where to go,nutrition,"[""nutrition""]",,ok,69,2,199.51
+dev_032,pain in right lower abdomen since morning getting worse feel like vomiting,general_surgery,"[""general_surgery""]",,ok,65,4,309.33
+dev_033,both hands fingers swollen and stiff in morning for 1 hour this is 4 months now,rheumatology,"[""rheumatology""]",,ok,71,5,397.15
+dev_034,i snore very loud and my wife says i stop breathing im tired whole day,pulmonology,"[""pulmonology""]",,ok,69,5,366.78
+dev_035,need botox and filler prices,plastic_aesthetic,"[""plastic_aesthetic""]",,ok,59,5,365.59
+dev_036,piles problem bleeding when passing motion very painful,general_surgery,"[""general_surgery""]",,ok,62,4,326.53
+dev_037,thyroid tsh is 8.5 feeling tired and gaining weight,endocrinology,"[""endocrinology""]",,ok,67,4,316.5
+dev_038,my father 70 forgetting things repeating same question sometimes doesnt recognise road home,neurology,"[""neurology""]",,ok,67,4,310.94
+dev_039,salam any doctor available today,general_medicine,"[""general_medicine""]",,ok,59,4,335.07
+dev_040,cataract in both eyes want to know about operation,ophthalmology,"[""ophthalmology""]",,ok,64,4,304.29
+dev_041,acidity and burning in chest at night cant sleep flat antacid helps little,gastroenterology,"[""gastroenterology""]",,ok,68,5,374.69
+dev_042,my 5 year old ear pain crying whole night and some liquid coming out,pediatrics,"[""pediatrics""]",,ok,68,3,273.83
+dev_043,i am 32 male we are trying for baby 2 years my wife tests normal mine they said count low,urology,"[""urology""]",,ok,75,3,260.74
+dev_044,chest pain heavy like weight sweating left arm also paining since 20 min,cardiology,"[""cardiology""]",,ok,68,3,257.54
+dev_045,yellow eyes and dark urine since 4 days and no appetite,gastroenterology,"[""gastroenterology""]",,ok,65,5,376.63
+dev_046,my knee replacement was 3 weeks ago need someone to help with exercises at home,physiotherapy,"[""physiotherapy""]",,ok,69,4,335.52
+dev_047,wisdom tooth coming and jaw swollen cant open mouth fully,dentistry_general,"[""dentistry_general""]",,ok,64,4,304.72
+dev_048,white patches on face and hands spreading slowly no itching,dermatology,"[""dermatology""]",,ok,63,4,330.72
+dev_049,child not gaining weight 2 years old eats very little other kids bigger,pediatrics,"[""pediatrics""]",,ok,67,3,277.16
+dev_050,i take insulin but sugar still 200-300 need to adjust,endocrinology,"[""endocrinology""]",,ok,66,4,335.94
